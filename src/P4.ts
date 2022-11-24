@@ -3,9 +3,9 @@ import { ArgumentBuilder } from '@akiojin/argument-builder'
 
 export default class P4
 {
-    static Initialize(ip: string, username: string, workspace: string)
+    static Initialize(server: string, username: string, workspace: string)
     {
-        process.env.P4PORT = ip
+        process.env.P4PORT = server
         process.env.P4USER = username
         process.env.P4CLIENT = workspace
     }

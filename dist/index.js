@@ -1421,8 +1421,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 const exec = __importStar(__nccwpck_require__(222));
 const argument_builder_1 = __nccwpck_require__(57);
 class P4 {
-    static Initialize(ip, username, workspace) {
-        process.env.P4PORT = ip;
+    static Initialize(server, username, workspace) {
+        process.env.P4PORT = server;
         process.env.P4USER = username;
         process.env.P4CLIENT = workspace;
     }

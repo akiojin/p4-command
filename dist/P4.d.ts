@@ -1,5 +1,5 @@
 export default class P4 {
-    static Initialize(ip: string, username: string, workspace: string): void;
+    static Initialize(server: string, username: string, workspace: string): void;
     static ShowInfo(): Promise<void>;
     static ShowVersion(): Promise<void>;
     static ShowUserInfo(): Promise<void>;
