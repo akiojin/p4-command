@@ -1,6 +1,6 @@
 {
   "name": "@akiojin/p4-command",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A package to control P4 from the command line.",
   "main": "dist/index.js",
   "private": false,
