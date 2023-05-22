@@ -28,6 +28,6 @@
     "typescript": "^5.0.2"
   },
   "devDependencies": {
-    "@types/node": "^18.0.4"
+    "@types/node": "^20.2.3"
   }
 }
